@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page tentang hobi memasak Silvia Febriani.">
+    <title>Resep Favorit Silvia</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-green-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-green-700 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="#">
+                <img src="images/logo.png" alt="Logo Memasak" class="w-12 h-12">
+            </a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#fitur" class="text-white hover:text-green-300">Fitur</a></li>
+                    <li><a href="#resep" class="text-white hover:text-green-300">Resep Favorit</a></li>
+                    <li><a href="#testimoni" class="text-white hover:text-green-300">Testimoni</a></li>
+                    <li><a href="#kontak" class="text-white hover:text-green-300">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-green-600 text-white py-20 hero">
+        <div class="container mx-auto flex flex-col items-center text-center">
+            <h1 class="text-5xl font-bold mb-4">Resep Favorit Silvia</h1>
+            <p class="text-xl mb-6">Temukan resep-resep spesial dari hobi memasak saya, cocok untuk berbagai kesempatan. Mari kita mulai perjalanan kuliner bersama!</p>
+            <a href="#resep" class="bg-white text-green-600 font-bold py-2 px-6 rounded-full hover:bg-green-200 transition duration-300">Lihat Resep</a>
+            <!-- Gambar masakan -->
+            <img src="images/Gambar Hero.jpeg" alt="Gambar Hero" class="mt-10 w-full rounded-lg shadow-lg">
+        </div>
+    </section>
+
+    <!-- Fitur Section -->
+    <section id="fitur" class="py-16 bg-green-100 fitur-section">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Fitur Utama Resep Silvia</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-green-300 shadow-lg p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Resep Mudah</h3>
+                    <p>Setiap resep dirancang dengan langkah-langkah yang jelas dan sederhana. Semua orang bisa memasak dengan percaya diri!</p>
+                </div>
+                <div class="bg-green-300 shadow-lg p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Langkah Terperinci</h3>
+                    <p>Instruksi langkah demi langkah yang terperinci untuk memastikan hasil terbaik setiap kali memasak.</p>
+                </div>
+                <div class="bg-green-300 shadow-lg p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Bahan Alternatif</h3>
+                    <p>Anda dapat berkreasi dengan bahan alternatif jika bahan utama tidak tersedia, tetap lezat!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resep Section -->
+    <section id="resep" class="py-16 bg-green-50 resep-section">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Resep Favorit Saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-lg p-6 rounded-lg">
+                    <img src="images/Nasi Goreng.jpeg" alt="Nasi Goreng" class="mb-4 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Nasi Goreng Spesial</h3>
+                    <p>Resep nasi goreng lezat yang siap dalam 15 menit. Cocok untuk hidangan cepat yang nikmat.</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 rounded-lg">
+                    <img src="images/Pancake.jpeg" alt="Pancake" class="mb-4 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Pancake Empuk</h3>
+                    <p>Pancake empuk yang lembut dengan topping sirup maple, sempurna untuk sarapan pagi.</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 rounded-lg">
+                    <img src="images/Spaghetti Bolognese.jpeg" alt="Spaghetti Bolognese" class="mb-4 rounded-lg">
+                    <h3 class="text-2xl font-semibold mb-4">Spaghetti Bolognese</h3>
+                    <p>Spaghetti dengan saus bolognese kaya rasa, ideal untuk makan malam keluarga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="py-16 bg-green-100 testimoni-section">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Testimoni Pengguna</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-green-300 shadow-lg p-6 rounded-lg">
+                    <p class="text-lg mb-4">"Resep dari Silvia sangat mudah diikuti, hasilnya luar biasa! Nasi gorengnya favorit saya!"</p>
+                    <p class="font-bold">- Dian</p>
+                </div>
+                <div class="bg-green-300 shadow-lg p-6 rounded-lg">
+                    <p class="text-lg mb-4">"Pancake empuknya enak banget, cocok untuk sarapan setiap hari!"</p>
+                    <p class="font-bold">- Andi</p>
+                </div>
+                <div class="bg-green-300 shadow-lg p-6 rounded-lg">
+                    <p class="text-lg mb-4">"Spaghetti Bolognese-nya kaya rasa, keluarga saya suka banget!"</p>
+                    <p class="font-bold">- Rini</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-green-700 text-white py-8">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-4">Hubungi Saya</h3>
+            <p class="text-lg mb-4">Ingin berbagi resep atau butuh tips memasak? Hubungi saya melalui media sosial berikut.</p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:silviafebriani608@gmail.com" class="hover:text-gray-400">Email</a>
+                <a href="https://instagram.com/silviafebr_" class="hover:text-gray-400">Instagram</a>
+            </div>
+            <p class="mt-2">Kontak : 081214086346</p>
+        </div>
+    </footer>
+
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya tambahan untuk bagian header */
+header {
+    background-color: #2f855a; /* Hijau tua */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul li a {
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #9ae6b4; /* Hijau muda saat di-hover */
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #f7fafc;
+}
+
+/* Fitur Section */
+.fitur-section h2 {
+    color: #276749; /* Warna hijau gelap */
+    margin-bottom: 1rem;
+}
+
+.fitur-section div {
+    background-color: #48bb78; /* Warna hijau fitur */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Resep Section */
+.resep-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.resep-section h3 {
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    color: #22543d; /* Warna hijau tua */
+}
+
+.resep-section p {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+/* Testimoni Section */
+.testimoni-section div {
+    background-color: #68d391; /* Hijau testimoni */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.testimoni-section p {
+    color: #2d3748;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2f855a;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+footer a {
+    color: #e6fffa;
+}
+
+footer a:hover {
+    color: #68d391; /* Warna hijau muda saat di-hover */
+}
